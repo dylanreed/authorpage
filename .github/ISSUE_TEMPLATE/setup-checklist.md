@@ -30,13 +30,13 @@ Your site rebuilds automatically every time you save a file (give it about 60 se
 - [ ] Update `description:` under `params:` to a short description of your site (this shows in search results)
 - [ ] Click "Commit changes" at the bottom
 
-## Step 3: Add your author photo
+## Step 3: Upload your images
 
 - [ ] Click on the `static/images/` folder
 - [ ] Click "Add file" -> "Upload files"
-- [ ] Upload your author photo (any format: `.jpg`, `.png`, `.webp`, etc.)
+- [ ] Upload your author photo and book cover images (any format: `.jpg`, `.png`, `.webp`, etc.)
 - [ ] Click "Commit changes"
-- [ ] Note the exact filename including extension (e.g. `headshot.png`)
+- [ ] Note the exact filenames including extensions (e.g. `headshot.png`, `my-book-cover.jpg`)
 
 ## Step 4: Add your information
 
@@ -51,15 +51,10 @@ Your site rebuilds automatically every time you save a file (give it about 60 se
 
 ## Step 5: Add your books
 
-- [ ] Click on the `static/images/` folder
-- [ ] Click "Add file" -> "Upload files"
-- [ ] Upload your book cover images (any format: `.jpg`, `.png`, `.webp`, etc.)
-- [ ] Click "Commit changes"
-- [ ] Note the exact filenames including extensions
 - [ ] Open `data/books.yaml` (click the pencil icon to edit)
 - [ ] Replace the example books with your own
 - [ ] For each book, fill in: title, tagline, description, published year
-- [ ] Update each `cover:` path to match your uploaded filename (e.g. `/images/my-book-cover.png`)
+- [ ] Update each `cover:` path to match your uploaded filename (e.g. `/images/my-book-cover.jpg`)
 - [ ] Add your buy links (Amazon, Bookshop.org, etc.)
 - [ ] Set `featured: true` on the ONE book you want on your home page
 - [ ] Click "Commit changes"
