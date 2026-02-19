@@ -383,6 +383,18 @@ hr {
   text-align: left;
 }
 
+.hero__featured-cover {
+  max-width: 220px;
+  margin-bottom: var(--space-md);
+  border: 2px solid var(--color-border);
+}
+
+.hero__featured-cover img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .hero__featured-label {
   font-family: var(--font-body);
   font-size: 0.75rem;

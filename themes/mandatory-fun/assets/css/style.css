@@ -529,7 +529,10 @@ h3 { font-size: clamp(1.25rem, 2.5vw, 1.75rem); }
 }
 
 .book-card__title {
+  font-size: clamp(1.1rem, 2vw, 1.35rem);
   margin-bottom: var(--space-xs);
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 .book-card__tagline {
