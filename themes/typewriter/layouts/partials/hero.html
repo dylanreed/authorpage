@@ -33,7 +33,6 @@
   {{/* Featured book teaser with REDACTED description */}}
   {{ with hugo.Data.books }}
     {{ range where . "featured" true }}
-    {{ $book := . }}
     <div class="container">
       <div class="hero__featured">
         <p class="hero__featured-label">// CASE FILE // FEATURED //</p>
@@ -41,7 +40,7 @@
 
         {{ with .description }}
         <p class="hero__featured-description">
-          <span class="redacted">{{ . }}</span>
+          <span class="redacted" tabindex="0" role="button" aria-label="Reveal description">{{ . }}</span>
         </p>
         {{ end }}
 

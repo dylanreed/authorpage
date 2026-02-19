@@ -54,8 +54,8 @@ Themes read from these data files (both are optional — templates must handle m
 ## Template Variables Available
 
 All templates receive Hugo's standard page context. Data files are accessed via:
-- `site.Data.site` — contents of `data/site.yaml`
-- `site.Data.books` — contents of `data/books.yaml`
+- `hugo.Data.site` — contents of `data/site.yaml`
+- `hugo.Data.books` — contents of `data/books.yaml`
 - `site.Menus.main` — navigation menu items from `config.yaml`
 
 ## Adding a New Theme
