@@ -45,7 +45,7 @@ Your site rebuilds automatically every time you save a file (give it about 60 se
 - [ ] Replace `Jane Author` with your name
 - [ ] Replace the tagline with your own
 - [ ] Replace the bio with your own (a few sentences about you)
-- [ ] Update the `photo:` line to match your uploaded filename (e.g. `/images/headshot.png`)
+- [ ] Update the `photo:` line to match your uploaded filename (e.g. `images/headshot.png`)
 - [ ] Update the social media links (delete any you don't use)
 - [ ] Update the contact email
 - [ ] Click "Commit changes"
@@ -55,7 +55,7 @@ Your site rebuilds automatically every time you save a file (give it about 60 se
 - [ ] Open `data/books.yaml` (click the pencil icon to edit)
 - [ ] Replace the example books with your own
 - [ ] For each book, fill in: title, tagline, description, published year
-- [ ] Update each `cover:` path to match your uploaded filename (e.g. `/images/my-book-cover.jpg`)
+- [ ] Update each `cover:` path to match your uploaded filename (e.g. `images/my-book-cover.jpg`)
 - [ ] Add your buy links (Amazon, Bookshop.org, etc.)
 - [ ] Set `featured: true` on the ONE book you want on your home page
 - [ ] Click "Commit changes"

@@ -144,7 +144,7 @@ Open `data/site.yaml` to edit your personal information. Here's what each field 
 - **name** — Your full name as you want it displayed on the site
 - **tagline** — A short line shown under your name on the home page (e.g., "Author of The Midnight Garden")
 - **bio** — A paragraph about you, shown on the About page
-- **photo** — Path to your author photo (upload the image to `static/images/` and set this to `/images/your-photo.jpg`)
+- **photo** — Path to your author photo (upload the image to `static/images/` and set this to `images/your-photo.jpg`)
 - **social** — Links to your social media profiles. Delete any you don't use.
 - **contact_email** — Your email address, shown on the Contact page
 
@@ -169,7 +169,7 @@ Copy the block below, paste it at the top of `data/books.yaml` (right after the 
 ```yaml
 - title: "Your Book Title"
   # Path to the cover image (upload to static/images/ first)
-  cover: "/images/your-cover.jpg"
+  cover: "images/your-cover.jpg"
   # A short one-line hook
   tagline: "A story about..."
   # A longer description (2-3 sentences work well)

@@ -5,7 +5,7 @@
 # and fill in your book's details. Newest books should go at the top.
 
 - title: "The Midnight Garden"
-  cover: "/images/midnight-garden.jpg"
+  cover: "images/midnight-garden.jpg"
   tagline: "A novel about memory and forgetting"
   description: "When Clara returns to her grandmother's house after twenty years, she discovers a garden that blooms only at night — and a family secret buried beneath its roots."
   published: 2024
@@ -19,7 +19,7 @@
   featured: true
 
 - title: "Letters from the Peninsula"
-  cover: "/images/letters-peninsula.jpg"
+  cover: "images/letters-peninsula.jpg"
   tagline: "A story of distance and devotion"
   description: "An epistolary novel spanning three decades of correspondence between two friends separated by an ocean."
   published: 2021
