@@ -228,6 +228,10 @@ Posts show up on the Blog page sorted by date, newest first.
 
 Yes! GitHub Pages supports custom domains. Go to your repository's **Settings** > **Pages** > **Custom domain** and follow the instructions. GitHub has a [step-by-step guide](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site).
 
+**Where should I buy a domain?**
+
+We recommend [Cloudflare Registrar](https://www.cloudflare.com/products/registrar/). They sell domains at cost (no markup) and include free DNS, SSL, and DDoS protection. Search for your desired domain at [cloudflare.com](https://www.cloudflare.com/), register it, then follow the GitHub Pages custom domain guide above to connect it to your site.
+
 **Can I switch themes later?**
 
 Yes, just change the `theme:` line in `config.yaml`. Your content stays the same — only the look changes.
