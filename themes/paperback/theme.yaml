@@ -1,0 +1,8 @@
+name: "Paperback"
+description: "Bold and commercial — book covers front-and-center, warm and inviting"
+preview: "/images/themes/paperback-preview.png"
+colors:
+  primary: "#c0392b"
+  background: "#ffffff"
+  text: "#2d2d2d"
+  accent: "#e67e22"
