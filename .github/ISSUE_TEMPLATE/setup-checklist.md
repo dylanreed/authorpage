@@ -22,10 +22,10 @@ Your site rebuilds automatically every time you save a file (give it about 60 se
 - [ ] Open `config.yaml` (click the pencil icon to edit)
 - [ ] Find the line that says `theme: "inkwell"`
 - [ ] Change it to one of the themes below:
-  - **Inkwell** — Clean and literary, lots of white space, serif fonts
-  - **Paperback** — Bold and commercial, book covers front-and-center
-  - **Typewriter** — Retro and dark, monospace fonts, vintage feel
-  - **Mandatory Fun** — Bold and playful, geometric accents, purple and coral palette
+  - `inkwell` — Clean and literary, lots of white space, serif fonts
+  - `paperback` — Bold and commercial, book covers front-and-center
+  - `typewriter` — Retro and dark, monospace fonts, vintage feel
+  - `mandatory-fun` — Bold and playful, geometric accents, purple and coral palette
 - [ ] Click "Commit changes" at the bottom
 
 ## Step 3: Add your author photo
