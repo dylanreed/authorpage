@@ -35,9 +35,8 @@ Your site rebuilds automatically every time you save a file (give it about 60 se
 - [ ] Click on the `static/images/` folder
 - [ ] Click "Add file" -> "Upload files"
 - [ ] Upload your author photo and book cover images (any format: `.jpg`, `.png`, `.webp`, etc.)
-- [ ] **Tip:** Avoid spaces in filenames — use dashes instead (e.g. `my-book-cover.jpg` not `my book cover.jpg`)
 - [ ] Click "Commit changes"
-- [ ] Note the exact filenames including extensions — you'll need them in the next steps
+- [ ] Note the exact filenames including extensions (e.g. `headshot.png`, `my-book-cover.jpg`)
 
 ## Step 4: Add your information
 
