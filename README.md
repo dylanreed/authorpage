@@ -226,11 +226,30 @@ Posts show up on the Blog page sorted by date, newest first.
 
 **Can I use my own domain?**
 
-Yes! GitHub Pages supports custom domains. Go to your repository's **Settings** > **Pages** > **Custom domain** and follow the instructions. GitHub has a [step-by-step guide](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site).
+Yes! Here's how to set it up:
 
-**Where should I buy a domain?**
+1. **Buy a domain** — We recommend [Cloudflare Registrar](https://www.cloudflare.com/products/registrar/). They sell domains at cost (no markup) and include free DNS, SSL, and DDoS protection.
 
-We recommend [Cloudflare Registrar](https://www.cloudflare.com/products/registrar/). They sell domains at cost (no markup) and include free DNS, SSL, and DDoS protection. Search for your desired domain at [cloudflare.com](https://www.cloudflare.com/), register it, then follow the GitHub Pages custom domain guide above to connect it to your site.
+2. **Set up DNS** — In your domain registrar's DNS settings, add records pointing to GitHub:
+
+   For a subdomain like `www.yourdomain.com`, add a **CNAME** record:
+   | Type | Name | Target |
+   |------|------|--------|
+   | CNAME | www | `yourusername.github.io` |
+
+   For an apex domain like `yourdomain.com` (no www), add four **A** records:
+   | Type | Name | Value |
+   |------|------|-------|
+   | A | @ | `185.199.108.153` |
+   | A | @ | `185.199.109.153` |
+   | A | @ | `185.199.110.153` |
+   | A | @ | `185.199.111.153` |
+
+3. **Connect it in GitHub** — Go to your repository's **Settings** > **Pages** > **Custom domain**, type in your domain, and click Save. GitHub will verify the DNS and provision a free SSL certificate (this can take up to 15 minutes).
+
+4. **Enable HTTPS** — Once the certificate is ready, check the **"Enforce HTTPS"** box on the same page.
+
+That's it — your author site is now live at your own domain. GitHub has a more detailed [step-by-step guide](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site) if you get stuck.
 
 **Can I switch themes later?**
 
