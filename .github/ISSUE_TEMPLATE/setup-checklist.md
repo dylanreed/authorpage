@@ -26,6 +26,8 @@ Your site rebuilds automatically every time you save a file (give it about 60 se
   - `paperback` — Bold and commercial, book covers front-and-center
   - `typewriter` — Retro and dark, monospace fonts, vintage feel
   - `mandatory-fun` — Bold and playful, geometric accents, purple and coral palette
+- [ ] Update `title:` to your name or site name (this shows in browser tabs)
+- [ ] Update `description:` under `params:` to a short description of your site (this shows in search results)
 - [ ] Click "Commit changes" at the bottom
 
 ## Step 3: Add your author photo
