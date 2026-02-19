@@ -111,17 +111,25 @@ AuthorPage comes with four themes. You can always switch later.
 
 Clean, literary, lots of white space. Serif fonts give it a bookish feel. Perfect for literary fiction and poetry.
 
+![Inkwell theme screenshot](.github/screenshots/inkwell.jpeg)
+
 ### Paperback
 
 Bold and eye-catching. Your book covers take center stage. Great for genre fiction — romance, thriller, sci-fi, fantasy.
+
+![Paperback theme screenshot](.github/screenshots/paperback.jpeg)
 
 ### Typewriter
 
 Dark and moody with a retro vibe. Monospace fonts and vintage textures. Ideal for horror, noir, or anyone who wants personality.
 
+![Typewriter theme screenshot](.github/screenshots/typewriter.jpeg)
+
 ### Mandatory Fun
 
 Bold and playful with geometric accents. Purple and coral palette with bouncy animations. For authors who don't take themselves too seriously.
+
+![Mandatory Fun theme screenshot](.github/screenshots/mandatory-fun.jpeg)
 
 ### How to switch themes
 
