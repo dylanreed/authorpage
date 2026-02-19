@@ -21,3 +21,9 @@ social:
 
 # Email address shown on the Contact page
 contact_email: "jane@example.com"
+
+# Newsletter signup form action URL (from Buttondown, Mailchimp, ConvertKit, etc.)
+# Leave blank or delete this line to hide the newsletter signup sections.
+# Example (Buttondown): "https://buttondown.com/api/emails/embed-subscribe/your-username"
+# Example (Mailchimp):  "https://yourname.us1.list-manage.com/subscribe/post?u=XXX&id=YYY"
+newsletter_action: ""
