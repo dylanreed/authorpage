@@ -7,7 +7,7 @@
 {{ partial "hero.html" . }}
 
 {{/* Featured book section */}}
-{{ with site.Data.books }}
+{{ with hugo.Data.books }}
   {{ range where . "featured" true }}
   {{ $book := . }}
   <section class="featured-book fade-in-late">

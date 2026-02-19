@@ -1,0 +1,35 @@
+{{/* ABOUTME: Contact page layout with email and social links. */}}
+{{/* ABOUTME: Displays the author's contact email and social media links from hugo.Data.site. */}}
+
+{{ define "main" }}
+<div class="container">
+  <section class="contact">
+    <h1 class="contact__title fade-in">{{ .Title }}</h1>
+
+    {{ with hugo.Data.site }}
+
+      {{/* Email */}}
+      {{ with .contact_email }}
+      <div class="contact__email fade-in-delayed">
+        <p>Get in touch: <a href="mailto:{{ . }}">{{ . }}</a></p>
+      </div>
+      {{ end }}
+
+      {{/* Social links */}}
+      {{ with .social }}
+      <div class="about__social fade-in-late">
+        <p class="about__social-title">Or find me online</p>
+        <ul class="social-links">
+          {{ with .twitter }}<li><a href="{{ . }}" rel="noopener noreferrer" target="_blank">Twitter</a></li>{{ end }}
+          {{ with .instagram }}<li><a href="{{ . }}" rel="noopener noreferrer" target="_blank">Instagram</a></li>{{ end }}
+          {{ with .goodreads }}<li><a href="{{ . }}" rel="noopener noreferrer" target="_blank">Goodreads</a></li>{{ end }}
+        </ul>
+      </div>
+      {{ end }}
+
+    {{ else }}
+      <p class="fade-in-delayed" style="color: var(--color-text-muted);">Contact information coming soon.</p>
+    {{ end }}
+  </section>
+</div>
+{{ end }}
