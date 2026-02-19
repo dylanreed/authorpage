@@ -10,7 +10,14 @@ labels: setup
 Follow these steps to make it yours. Check each box as you go.
 Your site rebuilds automatically every time you save a file (give it about 60 seconds to update).
 
-## Step 1: Pick your theme
+## Step 1: Enable GitHub Pages
+
+- [ ] Go to your repo's **Settings** tab (top of the page)
+- [ ] Click **Pages** in the left sidebar
+- [ ] Under "Build and deployment", set **Source** to **GitHub Actions**
+- [ ] That's it — no other Pages settings need to change
+
+## Step 2: Pick your theme
 
 - [ ] Open `config.yaml` (click the pencil icon to edit)
 - [ ] Find the line that says `theme: "inkwell"`
@@ -21,7 +28,7 @@ Your site rebuilds automatically every time you save a file (give it about 60 se
   - **Mandatory Fun** — Bold and playful, geometric accents, purple and coral palette
 - [ ] Click "Commit changes" at the bottom
 
-## Step 2: Add your author photo
+## Step 3: Add your author photo
 
 - [ ] Click on the `static/images/` folder
 - [ ] Click "Add file" -> "Upload files"
@@ -29,7 +36,7 @@ Your site rebuilds automatically every time you save a file (give it about 60 se
 - [ ] Click "Commit changes"
 - [ ] Note the exact filename including extension (e.g. `headshot.png`)
 
-## Step 3: Add your information
+## Step 4: Add your information
 
 - [ ] Open `data/site.yaml` (click the pencil icon to edit)
 - [ ] Replace `Jane Author` with your name
@@ -40,7 +47,7 @@ Your site rebuilds automatically every time you save a file (give it about 60 se
 - [ ] Update the contact email
 - [ ] Click "Commit changes"
 
-## Step 4: Add your books
+## Step 5: Add your books
 
 - [ ] Click on the `static/images/` folder
 - [ ] Click "Add file" -> "Upload files"
@@ -55,11 +62,11 @@ Your site rebuilds automatically every time you save a file (give it about 60 se
 - [ ] Set `featured: true` on the ONE book you want on your home page
 - [ ] Click "Commit changes"
 
-## Step 5: Check your site!
+## Step 6: Check your site!
 
-- [ ] Visit `https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/`
-- [ ] It may take a minute for the first build to complete
-- [ ] If you see a 404, go to Settings -> Pages and make sure the Source is set to "GitHub Actions"
+- [ ] Go to **Settings > Pages** — your live URL is shown at the top of the page
+- [ ] Click the URL to visit your site (it may take a minute for the first build)
+- [ ] If the page looks wrong, make sure you completed Step 1 (Source set to "GitHub Actions")
 
 ## Need help?
 
