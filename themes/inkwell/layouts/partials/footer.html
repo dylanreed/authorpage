@@ -6,11 +6,7 @@
     {{ with hugo.Data.site }}
       {{ with .social }}
       <div class="site-footer__social">
-        <ul class="social-links">
-          {{ with .twitter }}<li><a href="{{ . }}" rel="noopener noreferrer" target="_blank">Twitter</a></li>{{ end }}
-          {{ with .instagram }}<li><a href="{{ . }}" rel="noopener noreferrer" target="_blank">Instagram</a></li>{{ end }}
-          {{ with .goodreads }}<li><a href="{{ . }}" rel="noopener noreferrer" target="_blank">Goodreads</a></li>{{ end }}
-        </ul>
+        {{ partial "social-links.html" . }}
       </div>
       {{ end }}
       <p class="site-footer__copyright">&copy; {{ now.Year }} {{ .name }}. All rights reserved.</p>

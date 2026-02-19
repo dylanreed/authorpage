@@ -31,13 +31,9 @@
 
       {{/* Social links */}}
       {{ with .social }}
-      <div class="about__social fade-in-late">
-        <p class="about__social-title">Find me online</p>
-        <ul class="social-links">
-          {{ with .twitter }}<li><a href="{{ . }}" rel="noopener noreferrer" target="_blank">Twitter</a></li>{{ end }}
-          {{ with .instagram }}<li><a href="{{ . }}" rel="noopener noreferrer" target="_blank">Instagram</a></li>{{ end }}
-          {{ with .goodreads }}<li><a href="{{ . }}" rel="noopener noreferrer" target="_blank">Goodreads</a></li>{{ end }}
-        </ul>
+      <div class="social-section fade-in-late">
+        <p class="social-section__title">Find me online</p>
+        {{ partial "social-links.html" . }}
       </div>
       {{ end }}
 

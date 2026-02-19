@@ -11,7 +11,7 @@
   --color-background: #FAF6F0;
   --color-accent: #C4956A;
   --color-text: #2C2824;
-  --color-text-muted: #6B5E52;
+  --color-text-muted: #5E5147;
   --color-border: #DDD5CA;
 
   --font-display: 'Libre Caslon Display', serif;
@@ -61,7 +61,7 @@ body::before {
   position: fixed;
   inset: 0;
   pointer-events: none;
-  z-index: 9999;
+  z-index: 100;
   opacity: 0.03;
   background-image:
     repeating-linear-gradient(
@@ -105,6 +105,14 @@ body::before {
 
 .fade-in-late {
   animation: materialize 0.8s ease-out 0.3s both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fade-in,
+  .fade-in-delayed,
+  .fade-in-late {
+    animation: none;
+  }
 }
 
 /* ========================================================================
@@ -163,6 +171,12 @@ hr {
   font-variant: small-caps;
   letter-spacing: 0.05em;
   font-size: 0.875em;
+}
+
+/* Empty state placeholder text */
+.empty-state {
+  text-align: center;
+  color: var(--color-text-muted);
 }
 
 /* ========================================================================
@@ -230,7 +244,8 @@ hr {
 }
 
 .site-nav a:hover,
-.site-nav a:focus {
+.site-nav a:focus,
+.site-nav a.is-active {
   color: var(--color-accent);
   border-bottom-color: var(--color-accent);
 }
@@ -629,12 +644,12 @@ hr {
   text-align: center;
 }
 
-.about__social {
+.social-section {
   text-align: center;
   margin-top: var(--space-md);
 }
 
-.about__social-title {
+.social-section__title {
   font-variant: small-caps;
   letter-spacing: 0.08em;
   font-size: 0.9rem;
