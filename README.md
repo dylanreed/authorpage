@@ -81,8 +81,10 @@ At the top of this repository's page, look for the green **"Use this template"**
 In your brand new repository:
 
 - Click the **Issues** tab (near the top of the page, next to "Code")
-- You should see an issue called **"Set up my author site"**
-- Open it — this is your step-by-step checklist
+- Click **New issue**
+- Select **"Set Up Your Author Site"**
+- Click **Create**
+- This is your step-by-step checklist — follow it from top to bottom
 
 ### Step 4: Follow the checklist
 
@@ -97,19 +99,13 @@ Each step tells you exactly which file to edit and what to change. You can check
 
 ### Step 5: Visit your site!
 
-Once you've made your first edit, GitHub automatically starts building your site. Give it about 60 seconds, then visit:
-
-```
-https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/
-```
-
-If you see a 404 error, go to your repository's **Settings** > **Pages** and make sure the Source is set to **"GitHub Actions"**.
+Once you've completed the checklist, go to **Settings > Pages** in your repo — your live URL is shown at the top. It may take a minute for the first build to complete.
 
 ---
 
 ## Choosing a Theme
 
-AuthorPage comes with three themes. You can always switch later.
+AuthorPage comes with four themes. You can always switch later.
 
 ### Inkwell
 
@@ -123,9 +119,13 @@ Bold and eye-catching. Your book covers take center stage. Great for genre ficti
 
 Dark and moody with a retro vibe. Monospace fonts and vintage textures. Ideal for horror, noir, or anyone who wants personality.
 
+### Mandatory Fun
+
+Bold and playful with geometric accents. Purple and coral palette with bouncy animations. For authors who don't take themselves too seriously.
+
 ### How to switch themes
 
-Open `config.yaml` and change the `theme:` line to one of: `inkwell`, `paperback`, or `typewriter`.
+Open `config.yaml` and change the `theme:` line to one of: `inkwell`, `paperback`, `typewriter`, or `mandatory-fun`.
 
 ```yaml
 theme: "paperback"
