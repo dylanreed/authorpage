@@ -14,36 +14,43 @@ Your site rebuilds automatically every time you save a file (give it about 60 se
 
 - [ ] Open `config.yaml` (click the pencil icon to edit)
 - [ ] Find the line that says `theme: "inkwell"`
-- [ ] Change it to one of: `inkwell`, `paperback`, or `typewriter`
+- [ ] Change it to one of the themes below:
   - **Inkwell** — Clean and literary, lots of white space, serif fonts
   - **Paperback** — Bold and commercial, book covers front-and-center
   - **Typewriter** — Retro and dark, monospace fonts, vintage feel
+  - **Mandatory Fun** — Bold and playful, geometric accents, purple and coral palette
 - [ ] Click "Commit changes" at the bottom
 
-## Step 2: Add your information
+## Step 2: Add your author photo
+
+- [ ] Click on the `static/images/` folder
+- [ ] Click "Add file" -> "Upload files"
+- [ ] Upload your author photo (any format: `.jpg`, `.png`, `.webp`, etc.)
+- [ ] Click "Commit changes"
+- [ ] Note the exact filename including extension (e.g. `headshot.png`)
+
+## Step 3: Add your information
 
 - [ ] Open `data/site.yaml` (click the pencil icon to edit)
 - [ ] Replace `Jane Author` with your name
 - [ ] Replace the tagline with your own
 - [ ] Replace the bio with your own (a few sentences about you)
+- [ ] Update the `photo:` line to match your uploaded filename (e.g. `/images/headshot.png`)
 - [ ] Update the social media links (delete any you don't use)
 - [ ] Update the contact email
 - [ ] Click "Commit changes"
 
-## Step 3: Add your author photo
+## Step 4: Add your books
 
 - [ ] Click on the `static/images/` folder
 - [ ] Click "Add file" -> "Upload files"
-- [ ] Upload your author photo and name it `author.jpg`
+- [ ] Upload your book cover images (any format: `.jpg`, `.png`, `.webp`, etc.)
 - [ ] Click "Commit changes"
-
-## Step 4: Add your books
-
+- [ ] Note the exact filenames including extensions
 - [ ] Open `data/books.yaml` (click the pencil icon to edit)
 - [ ] Replace the example books with your own
 - [ ] For each book, fill in: title, tagline, description, published year
-- [ ] Upload cover images to `static/images/` (same process as your photo)
-- [ ] Update the `cover:` path to match your image filename
+- [ ] Update each `cover:` path to match your uploaded filename (e.g. `/images/my-book-cover.png`)
 - [ ] Add your buy links (Amazon, Bookshop.org, etc.)
 - [ ] Set `featured: true` on the ONE book you want on your home page
 - [ ] Click "Commit changes"
